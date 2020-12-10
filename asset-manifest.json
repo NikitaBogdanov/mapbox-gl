@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/mapbox-gl-app/static/css/main.cc086d30.chunk.css",
-    "main.js": "/mapbox-gl-app/static/js/main.f81f9ef9.chunk.js",
-    "main.js.map": "/mapbox-gl-app/static/js/main.f81f9ef9.chunk.js.map",
+    "main.css": "/mapbox-gl-app/static/css/main.1a75dd1e.chunk.css",
+    "main.js": "/mapbox-gl-app/static/js/main.f1e2737f.chunk.js",
+    "main.js.map": "/mapbox-gl-app/static/js/main.f1e2737f.chunk.js.map",
     "runtime-main.js": "/mapbox-gl-app/static/js/runtime-main.2e74ed5b.js",
     "runtime-main.js.map": "/mapbox-gl-app/static/js/runtime-main.2e74ed5b.js.map",
     "static/js/2.a2893e1e.chunk.js": "/mapbox-gl-app/static/js/2.a2893e1e.chunk.js",
     "static/js/2.a2893e1e.chunk.js.map": "/mapbox-gl-app/static/js/2.a2893e1e.chunk.js.map",
     "index.html": "/mapbox-gl-app/index.html",
-    "static/css/main.cc086d30.chunk.css.map": "/mapbox-gl-app/static/css/main.cc086d30.chunk.css.map",
+    "static/css/main.1a75dd1e.chunk.css.map": "/mapbox-gl-app/static/css/main.1a75dd1e.chunk.css.map",
     "static/js/2.a2893e1e.chunk.js.LICENSE.txt": "/mapbox-gl-app/static/js/2.a2893e1e.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/mapbox-gl-app/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.2e74ed5b.js",
     "static/js/2.a2893e1e.chunk.js",
-    "static/css/main.cc086d30.chunk.css",
-    "static/js/main.f81f9ef9.chunk.js"
+    "static/css/main.1a75dd1e.chunk.css",
+    "static/js/main.f1e2737f.chunk.js"
   ]
 }
