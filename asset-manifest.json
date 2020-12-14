@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mapbox-gl-app/static/css/main.1a75dd1e.chunk.css",
-    "main.js": "/mapbox-gl-app/static/js/main.e190f653.chunk.js",
-    "main.js.map": "/mapbox-gl-app/static/js/main.e190f653.chunk.js.map",
+    "main.js": "/mapbox-gl-app/static/js/main.b2b2f273.chunk.js",
+    "main.js.map": "/mapbox-gl-app/static/js/main.b2b2f273.chunk.js.map",
     "runtime-main.js": "/mapbox-gl-app/static/js/runtime-main.2e74ed5b.js",
     "runtime-main.js.map": "/mapbox-gl-app/static/js/runtime-main.2e74ed5b.js.map",
     "static/js/2.a2893e1e.chunk.js": "/mapbox-gl-app/static/js/2.a2893e1e.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.2e74ed5b.js",
     "static/js/2.a2893e1e.chunk.js",
     "static/css/main.1a75dd1e.chunk.css",
-    "static/js/main.e190f653.chunk.js"
+    "static/js/main.b2b2f273.chunk.js"
   ]
 }
