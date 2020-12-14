@@ -1,5 +1,5 @@
 import logo from '../logo.svg';
-import '../App.css';
+import '../site.css';
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
         <p>
           Welcome back!
         </p>
+        <input onKeyPress={(e)=>{console.log(e.key)}}></input>
         <a
           className="App-link"
           href="https://reactjs.org"

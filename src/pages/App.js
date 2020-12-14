@@ -1,6 +1,6 @@
 import React, {useState, useEffect, useRef} from 'react';
 import {useDispatch, useSelector} from "react-redux";
-import '../App.css';
+import '../site.css';
 import mrk from '../img/mrk.png'
 import AddPopup from '../components/addPopup'
 import {addMarker} from  '../reducers/map/actions'
