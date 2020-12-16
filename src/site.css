@@ -37,11 +37,6 @@
   }
 }
 
-.tooltip-container {
-  position: absolute;
-  background-color: white;
-}
-
 .mapContainer {
   position: absolute;
   top: 0;
@@ -50,26 +45,93 @@
   bottom: 0;
 }
 
+.tooltip-container {
+  line-height: 1.5;
+  min-width: 200px!important;
+}
+
 .tooltip-title {
-  font-size: 16px;
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: 500;
   overflow-wrap: break-word;
+  padding: 5px 0 3px;
 }
 
 .tooltip-description {
-  font-size: 14px;
+  border-top: 1px solid rgba(0, 24, 156, 0.51);
+  text-transform: capitalize;
+  font-size: 18px;
   overflow-wrap: break-word;
+  padding: 3px 0 3px;
 }
 
 .popup-bg {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
   height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.popup-header {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 5px;
 }
 
 .popup-container {
-  z-index: 100;
+  z-index: 10;
   display: flex;
   flex-direction: column;
+  width: 250px!important;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.popup-container > * {
+  margin-bottom: 15px;
+}
+
+.popup-buttons-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.popup-buttons-container button {
+  min-width: 90px;
+  min-height: 30px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.warning-message-text {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+  min-height: 16px;
+}
+
+.input-label {
+  text-align: start;
+  font-size: 16px;
+  color: #3f51b5;
+}
+
+.mapboxgl-popup-content {
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
